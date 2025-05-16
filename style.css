@@ -34,10 +34,10 @@
     }
 
     .menu li a {
-      background-image: url('./Img/Tábua.png');
+      background-image: url('./Img/Tábua2.png');
       background-size: contain;
       background-repeat: no-repeat;
-      padding: 10px 30px;
+      padding: 1.5vh 3vh;
       color: black;
       font-size: 18px;
       font-weight: bold;
@@ -98,7 +98,7 @@
     #image-rotator {
       width: 100%;
       max-width: 100%;
-      border: 8px solid #d2b48c;
+
       transition: opacity 0.5s ease-in-out;
     }
 
@@ -118,11 +118,89 @@
     z-index: 10;}
 
         .container {
-      background: #ffcf96;
+      background: rgba(255, 207, 150, 0.5);
       border: 3px solid #663300;
-      border-radius: 10vh;
+      border-radius: 1vh;
       max-width: 600px;
       padding: 30px;
       box-shadow: 0 0 20px #ff9b00;
       margin: 50vh auto;
     }
+
+  .itabua {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10vh;
+  z-index: 5;
+  background: transparent;}
+
+.tabua-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: transparent;}
+
+.tabua-sobre-fundo {
+  width: 15vh;
+  height: 6vh;
+  display: block;}
+
+.tabua-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0.2vh 0.2vh #000000;
+  color: rgb(253, 253, 255);
+  font-size: 1.4vh;
+  pointer-events: none;}
+
+  .ihome {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-48%, -50%);}
+
+  .home-sobre-tabua {
+    margin-right: 10vh;
+    height: 5vh;
+    width: 5vh;}
+
+  .ihistoria {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-20deg);}
+
+  .Historia-sobre-tabua {
+    margin-right: 20px;
+    height: 11vh;
+    width: 11vh;}
+
+  .imisterio {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-20deg);}
+
+  .Easter-sobre-tabua {
+    margin-right: 60px;
+    height: 180px;
+    width: 180px;}
+
+  .imisterio {
+    position: absolute;
+    top: 36%;
+    left: 66%;
+    transform: translate(-50%, -50%);}
+    
+  .Easter-sobre-tabua {
+    margin-right: 17vh;
+    height:10vh;
+    width: 10vh;}

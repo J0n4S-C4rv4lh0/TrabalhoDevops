@@ -24,7 +24,6 @@
     }
 
 
-
     .menu ul {
       display: flex;
       justify-content: center;
@@ -34,10 +33,10 @@
     }
 
     .menu li a {
-      background-image: url('./Img/Tábua.png');
+      background-image: url('./Img/Tábua2.png');
       background-size: contain;
       background-repeat: no-repeat;
-      padding: 10px 30px;
+      padding: 1.5vh 3vh;
       color: black;
       font-size: 18px;
       font-weight: bold;
@@ -95,13 +94,6 @@
       margin-bottom: 20px;
     }
 
-    #image-rotator {
-      width: 100%;
-      max-width: 100%;
-      border: 8px solid #d2b48c;
-      transition: opacity 0.5s ease-in-out;
-    }
-
     footer {
       margin-top: 40px;
       padding: 20px;
@@ -117,12 +109,12 @@
     height: 12%;
     z-index: 10;}
 
-        .container {
-      background: #4169e1;
-      border: 3px solid #663300;
-      border-radius: 10vh;
+    .container {
+      background: rgba(115, 136, 231, 0.5);
+      border: 3px solid #532a94;
+      border-radius: 1vh;
       max-width: 600px;
       padding: 30px;
-      box-shadow: 0 0 20px #ff9b00;
+      box-shadow: 0 0 20px #4f59eb;
       margin: 50vh auto;
     }

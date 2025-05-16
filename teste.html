@@ -6,89 +6,115 @@
   <meta name="description" content="Explore o universo encantador de Stardew Valley: mais que uma fazenda, é uma nova vida.">
   <title>Stardew Valley</title>
   <link rel="icon" href="./Img/Home.png">
-    <link rel="stylesheet" href="teste.css" />
+  <link rel="stylesheet" href="styleM.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #2a2f4a;
+      color: #fff;
+    }
+    h1, h2 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.5rem;
+    }
+    .menu ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      background-color: #1f2235;
+      border-radius: 10px;
+    }
+    .menu ul li {
+      margin: 0 20px;
+    }
+    .menu ul li a {
+      text-decoration: none;
+      color: #ffd700;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .menu ul li a:hover {
+      color: #ffffff;
+    }
+    .section-content {
+      margin-bottom: 4rem;
+    }
+    footer {
+      background-color: #1f2235;
+      color: #bbb;
+    }
+    img {
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+  </style>
 </head>
 <body class="bg-stardew text-light">
+
   <header class="text-center py-5">
     <img src="./Img/Logo.png" class="img-fluid" alt="Logo Stardew Valley" style="max-width: 40vh;">
   </header>
 
-  <!-- Menu personalizado -->
-  <nav class="menu mb-4">
+  <nav class="menu mb-5">
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="historia.html">História</a></li>
-      <li><a href="misterios.html">Mistério</a></li>
+      <li><a href="misterios.html">Mistérios</a></li>
     </ul>
   </nav>
 
-  <main class="container my-5 py-5 artigo">
-    <h1 class="text-center mb-4">Além de um Simples Jogo de Fazenda</h1>
-    <p class="lead text-center mb-5">
-      Você está exausto do seu trabalho? Das suas rotinas repetitivas? De sempre fazer a mesma coisa todos os dias? 
-      Se a resposta for sim, então você está no lugar certo.
-    </p>
-
-    <div class="row row-cols-1 row-cols-md-2 align-items-center">
-      <div class="col">
+  <main class="container">
+    
+    <!-- Seção 1 -->
+    <section class="section-content row align-items-center">
+      <div class="col-md-6">
+        <h1>1. OVNI no Céu Noturno</h1>
         <p>
-          Stardew Valley vai muito além de um simples jogo de fazenda como aqueles que você já jogou no Facebook. 
-          E o melhor: você pode jogar online com seus amigos! Aqui, você decide o rumo da sua própria história: 
-          seja agricultor, minerador, pescador — ou um pouco de tudo. A liberdade é sua.
-        </p>
-        <p>
-          Além das infinitas possibilidades no mundo do jogo, você pode fazer novas amizades e, com um pouco de “mimo”, 
-          até arranjar uma namorada (ou namorado!). Cada personagem tem uma história única e profunda. À medida que a amizade 
-          cresce, você vai descobrindo suas dores, sonhos e jeitos de ver o mundo.
-        </p>
-        <p>
-          Aproveite os eventos tradicionais da cidade, como a Caçada aos Ovos de Páscoa, o Festival de Halloween ou o dia de preparar 
-          uma sopa especial para o governador. Ah! E quase esquecemos: precisa de mais um motivo para jogar Stardew Valley? 
-          Simples: a trilha sonora viciante.
+          Em algumas noites, é possível ver um OVNI cruzando o céu rapidamente. É raro, mas aparece como um pequeno ponto brilhante em movimento com um som sutil.
+          Essa aparição reforça a presença de elementos sobrenaturais no jogo. Ninguém sabe ao certo o que ele significa — só que não estamos sozinhos.
         </p>
       </div>
-
-
-      <div class="col text-center">
-        <img id="image-rotator" class="img-fluid" src="./img/img2.png" alt="Cenário do jogo Stardew Valley">
+      <div class="col-md-6 text-center">
+        <img src="Img/ET.jpg" alt="OVNI Stardew" class="img-fluid">
       </div>
-    </div>
+    </section>
 
-    <div class="text-center mt-5 musiquinha">
-      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" 
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/163125391&color=0066cc&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false">
-      </iframe>
-    </div>
+    <!-- Seção 2 -->
+    <section class="section-content row align-items-center">
+      <div class="col-md-6">
+        <h1>2. A Estátua do Gato Alienígena</h1>
+        <p>
+          Atrás da carpintaria de Robin, existe uma estátua escondida entre as árvores. É uma figura estranha de um gato alienígena verde, pouco visível à primeira vista.
+          Ela não tem utilidade prática, mas é um segredo divertido de descobrir. Mais um toque de mistério deixado por ConcernedApe.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="Img/estatuas.jpg" alt="A Estátua do Gato Alienígena" class="img-fluid">
+      </div>
+    </section>
+
+    <!-- Seção 3 -->
+    <section class="section-content row align-items-center">
+      <div class="col-md-6">
+        <h1>3. O Urso Misterioso da Floresta</h1>
+        <p>
+          Depois de completar uma missão especial, um urso gigante aparece na floresta secreta. Ele agradece com um rugido e... melhora o valor de certos itens de forragem!
+          É um momento surpreendente e bem único no jogo. Quem diria que um urso poderia te ajudar a enriquecer?
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="Img/urso.jpg" alt="O Urso Misterioso da Floresta" class="img-fluid">
+      </div>
+    </section>
+
   </main>
 
-  <footer class="text-center text-black py-3">
+  <footer class="text-center py-3">
     <p class="mb-0">&copy; 2025 - Todos os direitos reservados.</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-    const imagens = [
-      './img/img2.png',
-      './img/img3.png',
-      './img/img4.png',
-      './img/img5.png',
-      './img/img6.png'
-    ];
-    
-    let index = 0;
-    const imgElement = document.getElementById('image-rotator');
-
-    setInterval(() => {
-      imgElement.style.opacity = 0;
-      setTimeout(() => {
-        index = (index + 1) % imagens.length;
-        imgElement.src = imagens[index];
-        imgElement.style.opacity = 1;
-      }, 500); // transição mais suave
-    }, 5000);
-  </script>
 </body>
 </html>
