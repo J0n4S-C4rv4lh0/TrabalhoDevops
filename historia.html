@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stardew Valley</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styleH.css">
-     <link rel="icon" href="./Img/Home.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore o universo encantador de Stardew Valley: mais que uma fazenda, é uma nova vida.">
+  <title>Stardew Valley</title>
+  <link rel="icon" href="./Img/Home.png">
+    <link rel="stylesheet" href="styleH.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <img src="Img/logo.png" alt="Haunted Chocolatier Logo" class="logo">
-        </header>
-        <nav class="menu">
-    <ul>       
-        <li><a href="index.html">Home</a></li>
-        <li><a href="historia.html">Historia</a></li>
-        <li><a href="misterios.html">Misterios</a></li>        
+<body class="bg-stardew text-black">
+  <header class="text-center py-5">
+    <img src="./Img/Logo.png" class="img-fluid" alt="Logo Stardew Valley" style="max-width: 40vh;">
+  </header>
+
+  <!-- Menu personalizado -->
+  <nav class="menu mb-4">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="historia.html">História</a></li>
+      <li><a href="misterios.html">Mistério</a></li>
     </ul>
-</nav>
-<section class="post">
-    <div class="post-inner">
+  </nav>
+  
+  <main class="container my-5 py-5 artigo">
+    <h1 class="text-center mb-4">Além de um Simples Jogo de Fazenda</h1>
+    <p class="lead text-center mb-5">
+      Você está exausto do seu trabalho? Das suas rotinas repetitivas? De sempre fazer a mesma coisa todos os dias? 
+      Se a resposta for sim, então você está no lugar certo.
+    </p>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-center">
+      <div class="col">
 <h2 class="mb-4">Introdução da História</h2>
     <p>
       Em <strong>Stardew Valley</strong>, você assume o papel de um personagem que herda uma fazenda abandonada do avô, localizada no pacato e encantador Vale do Orvalho.
       Exausto da rotina sem sentido do trabalho corporativo e da vida urbana, seu personagem decide recomeçar em meio à natureza, buscando um estilo de vida mais simples e significativo.
       O jogo começa com uma mudança literal e simbólica: deixar para trás a pressão do mundo moderno e embarcar numa jornada de autoconhecimento e tranquilidade rural.
     </p>
-            <header>
-                    <img src="Img/img2.png" alt="Haunted Chocolatier Logo" class="logo">
-        </header>
     <p>
       À medida que os dias passam no jogo, o jogador vai descobrindo segredos sobre a fazenda, sobre o centro comunitário abandonado e sobre os moradores da cidade.
       A narrativa se desenvolve de forma orgânica, com eventos sazonais, cutscenes emocionantes e uma ambientação que mistura nostalgia, mistério e calor humano.
       Apesar de parecer um simples simulador de fazenda, <strong>Stardew Valley</strong> trata de temas mais profundos como pertencimento, amizade, e o valor das pequenas coisas da vida.
     </p>
-            <header>
-                    <img src="Img/img4.png" alt="Haunted Chocolatier Logo" class="logo">
-        </header>
 
     <h2 class="mt-5 mb-4">As Possibilidades do Jogador no Jogo</h2>
     <p>
@@ -46,9 +51,6 @@
       Além de plantar e colher diversas culturas sazonais, é possível criar animais, pescar, minerar em cavernas cheias de monstros e mistérios, e até mesmo aprimorar ferramentas para melhorar sua eficiência na fazenda.
       Tudo isso ocorre em ciclos diários e estações que alteram o clima, os eventos e a disponibilidade de itens.
     </p>
-          <header>
-                    <img src="Img/img3.png" alt="Haunted Chocolatier Logo" class="logo">
-        </header>
     <p>
       A vida social é uma parte central do jogo. O jogador pode conhecer mais de 30 personagens únicos, com histórias próprias, personalidades distintas e relacionamentos que evoluem com o tempo.
       É possível fazer amizades, participar de eventos comunitários, se casar e até ter filhos.
@@ -71,16 +73,46 @@
 
         <p><strong>Em resumo:</strong> Uma aventura relaxante na vida do campo com escolhas significativas e uma comunidade acolhedora.</p>
   
-
-        <header>
-                    <img src="Img/img5.png" alt="Haunted Chocolatier Logo" class="logo">
-        </header>
        </div>
-</section>
 
-        <footer>
-            <p>&copy; 2025 ConcernedApe. All rights reserved.</p>
-        </footer>
+      <div class="col">
+        <img id="image-rotator" class="img-fluid" src="./img/img2.png" alt="Cenário do jogo Stardew Valley">
+      </div>
     </div>
+
+    <div class="text-center mt-5 musiquinha">
+      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" 
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/163125391&color=0066cc&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false">
+      </iframe>
+    </div>
+  </main>
+
+  <footer class="text-center text-black py-3">
+    <p class="mb-0">&copy; 2025 - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const imagens = [
+      './Img/img2.png',
+      './Img/img3.png',
+      './Img/img4.png',
+      './Img/img5.png',
+      './Img/img6.png'
+    ];
+    
+    let index = 0;
+    const imgElement = document.getElementById('image-rotator');
+
+    setInterval(() => {
+      imgElement.style.opacity = 0;
+      setTimeout(() => {
+        index = (index + 1) % imagens.length;
+        imgElement.src = imagens[index];
+        imgElement.style.opacity = 1;
+      }, 500); // transição mais suave
+    }, 5000);
+  </script>
 </body>
 </html>

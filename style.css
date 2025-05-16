@@ -1,128 +1,217 @@
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #0f0f0f;
-      background-image: url('images/bg_tile.png');
-      background-repeat: repeat;
-      background-size: auto;
-      color: #fff;
-      font-family: 'Arial', sans-serif;
-      text-align: center;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;}
 
-    .bg-stardew {
-      background-image: url('./Img/PlanodeFundo.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+  body {
+    background-color: #1e1e1e;}
 
-    h1 {
-      font-family: 'Press Start 2P', cursive;
-      font-size: 32px;
-      margin: 20px 0;
-    }
+.caixa-texto {
+  position: absolute;
+  top: 50vh;             
+  left: 50%;
+  transform: translateX(-50%);  
+  padding: 3vh 5vh;     
+  min-height: 95vh;     
+  max-width: 90vh;
+  width: 90%;
+  border-radius: 1vh;
+  background-color: rgba(0, 0, 0, 0.795);
+  color: rgba(0, 0, 0, 0.692);
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: 10;
+  opacity: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;}
 
+.caixa-texto h2 {
+  font-family: 'VT323', monospace;
+  font-size: 5vh;
+  margin: 0 0 2vh 0;
+  color: #FFD921;
+  text-shadow: 1px 1px 4px #000;
+  word-spacing: 0.5vh;
+  letter-spacing: 0.1vh;}
 
+.caixa-texto p {
+  font-family: 'VT323', monospace;
+  font-size: 3.2vh;
+  line-height: 1.8;
+  color: #ffffff;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: start;
+  word-spacing: 0.3vh;}
 
-    .menu ul {
-      display: flex;
-      justify-content: center;
-      gap: 100px;
-      list-style: none;
-      padding: 0;
-    }
+.GifSupresa1 {
+  position: relative;
+    height: 15vh;
+    width: 20vh;
+    left: 70%;
+    top: -3vh;         
+  left: 50%;
+  transform: translateX(-50%);
+    border-radius: 0vh;}
 
-    .menu li a {
-      background-image: url('./Img/Tábua2.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      padding: 1.5vh 3vh;
-      color: black;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      text-shadow: 1px 1px 0 #fff;
-    }
+.Cat1 {
+  position: relative;
+    height: 10vh;}
 
-    .post {
-      background-image: url('images/post_bg.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 4px solid black;
-      padding: 20px;
-      margin: 30px auto;
-      max-width: 800px;
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
+.Fazenda1 {
+  position: relative;
+    height: 10vh;}
 
-    .post:hover {
-      transform: scale(1.01);
-    }
+.Juninos1 {
+  position: relative;
+    height: 5vh;
+    border-radius: 1vh;}
 
-    .post-inner {
-      background-color: #ff9706; 
-      padding: 30px;
-      border-radius: 6px;
-      color: black;
-    }
+.Juninos2 {
+  position: relative;
+    height: 5vh;
+    border-radius: 1vh;}
 
-    .post-inner h2 {
-      font-size: 36px;
-      color: black;
-      margin-bottom: 10px;
-    }
-
-    .post-inner .meta {
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-
-    .post-inner a {
-      color: black;
-      text-decoration: none;
-    }
-
-    .post-inner a:hover {
-      text-decoration: underline;
-    }
-
-    .post-inner p {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-
-    #image-rotator {
-      width: 100%;
-      max-width: 100%;
-
-      transition: opacity 0.5s ease-in-out;
-    }
-
-    footer {
-      margin-top: 40px;
-      padding: 20px;
-      font-size: 14px;
-      
-    }
-
-    .musiquinha {
+.ifundo {
     position: relative;
-    left: 2%;
-    bottom: 2%;
-    width: 50%;
-    height: 12%;
+    height: 165vh;
+    background-image: url(Img1/PlanodeFundo.png.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+.ilogo {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+.logo-sobre-fundo {
+    max-width: 40vh;
+    height: auto;}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding: 1vh 0;}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0vh;}
+
+.itabua {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10vh;
+  z-index: 5;
+  background: transparent;}
+
+.tabua-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: transparent;}
+
+.tabua-sobre-fundo {
+  width: 15vh;
+  height: 6vh;
+  display: block;}
+
+.tabua-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0.2vh 0.2vh #000000;
+  color: rgb(253, 253, 255);
+  font-size: 1.4vh;
+  pointer-events: none;}
+
+.ihome {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-48%, -50%);}
+
+.home-sobre-tabua {
+    margin-right: 10vh;
+    height: 5vh;
+    width: 5vh;}
+
+.ihistoria {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-20deg);}
+
+.Historia-sobre-tabua {
+    margin-right: 20px;
+    height: 11vh;
+    width: 11vh;}
+
+.imisterio {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-20deg);}
+
+.Easter-sobre-tabua {
+    margin-right: 60px;
+    height: 180px;
+    width: 180px;}
+
+.imisterio {
+    position: absolute;
+    top: 36%;
+    left: 66%;
+    transform: translate(-50%, -50%);}
+    
+.Easter-sobre-tabua {
+    margin-right: 17vh;
+    height:10vh;
+    width: 10vh;}
+
+ 
+  
+.musiquinha {
+    position: absolute;
+    top: 150%;
+    left: 2vh;     
+    bottom: 2vh;    
+    width: 50vh;
+    height: 12vh;   
+    z-index: 10vh;}
+
+.coracao1 {
+    position: absolute;
+    top: 138%;
+    left: 10vh;     
+    bottom: 2vh;    
+    width: 15vh;    
+    height: auto;
     z-index: 10;}
 
-        .container {
-      background: rgba(255, 207, 150, 0.5);
-      border: 3px solid #663300;
-      border-radius: 1vh;
-      max-width: 600px;
-      padding: 30px;
-      box-shadow: 0 0 20px #ff9b00;
-      margin: 50vh auto;
-    }
+.gif-dev-esquerda {
+    position: absolute;
+    top: 154%;
+    right: 2vh;     
+    bottom: 2vh;    
+    width: 25vh;    
+    height: auto;
+    z-index: 10;}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.3vh;}

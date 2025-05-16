@@ -1,145 +1,127 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #0f0f0f;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0f0f0f;
+      background-image: url('images/bg_tile.png');
+      background-repeat: repeat;
+      background-size: auto;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+    }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+    .bg-stardew {
+      background-image: url('./Img/PlanodeFundo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
 
-header {
-    padding: 20px;
-}
+    h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 32px;
+      margin: 20px 0;
+    }
 
-.logo {
-    max-width: 650px;
-    height: auto;
-}
 
-.main-content {
-    padding: 40px 20px;
-}
+    .menu ul {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      list-style: none;
+      padding: 0;
+    }
 
-.banner {
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    margin: 20px 0;
-}
+    .menu li a {
+      background-image: url('./Img/Tábua2.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 1.5vh 3vh;
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      text-shadow: 1px 1px 0 #fff;
+    }
 
-h1 {
-    font-size: 32px;
-    margin: 20px 0;
-}
+    .post {
+      background-image: url('images/post_bg.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 4px solid black;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 800px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
 
-.description {
-    font-size: 18px;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.5;
-}
+    .post:hover {
+      transform: scale(1.01);
+    }
 
-footer {
-    margin-top: 40px;
-    padding: 20px;
-    font-size: 14px;
+    .post-inner {
+      background-color: #ff9706; 
+      padding: 30px;
+      border-radius: 6px;
+      color: black;
+    }
 
-}
-.menu {
-    background-color: #ff9706;
-    padding: 10px 0;
-    max-width: 800px;
-    margin: 0 auto;
-    border-radius: 8px;
+    .post-inner h2 {
+      font-size: 36px;
+      color: black;
+      margin-bottom: 10px;
+    }
 
-}
+    .post-inner .meta {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
 
-.menu ul {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    list-style: none;
-}
+    .post-inner a {
+      color: black;
+      text-decoration: none;
+    }
 
-.menu li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-}
+    .post-inner a:hover {
+      text-decoration: underline;
+    }
 
-.menu a {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s;
-}
+    .post-inner p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
 
-.menu a:hover {
-    color: #ff9706;
-}
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #0f0f0f;
-    background-image: url('Img/bg_tile.png');
-    background-repeat: repeat;
-    background-size: auto;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-}
-.post {
-    background-image: url('Img/post_bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 4px solid black;
-    padding: 20px;
-    margin: 30px auto;
-    max-width: 800px;
-    border-radius: 10px;
-}
+    #image-rotator {
+      width: 100%;
+      max-width: 100%;
 
-.post-inner {
-    background-color: #ff9706; 
-    padding: 30px;
-    border-radius: 6px;
-    color: black;
-    font-family: 'Arial', sans-serif;
-}
+      transition: opacity 0.5s ease-in-out;
+    }
 
-.post-inner h2 {
-    font-size: 36px;
-    color:black;
-    margin-bottom: 10px;
-}
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      
+    }
 
-.post-inner .meta {
-    font-size: 14px;
-    color: black;
-    margin-bottom: 20px;
-}
+    .musiquinha {
+    position: relative;
+    left: 2%;
+    bottom: 2%;
+    width: 50%;
+    height: 12%;
+    z-index: 10;}
 
-.post-inner a {
-    color: black;
-    text-decoration: none;
-}
-
-.post-inner a:hover {
-    text-decoration: underline;
-}
-
-.post-inner p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
+        .container {
+      background: rgba(255, 207, 150, 0.5);
+      border: 3px solid #663300;
+      border-radius: 1vh;
+      max-width: 600px;
+      padding: 30px;
+      box-shadow: 0 0 20px #ff9b00;
+      margin: 50vh auto;
+    }
