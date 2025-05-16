@@ -11,7 +11,7 @@
     }
 
     .bg-stardew {
-      background-image: url('./Img/PlanodeFundo.jpg');
+      background-image: url('./Img/PlanodeFundoM.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -118,7 +118,7 @@
     z-index: 10;}
 
         .container {
-      background: #ffcf96;
+      background: #4169e1;
       border: 3px solid #663300;
       border-radius: 10vh;
       max-width: 600px;

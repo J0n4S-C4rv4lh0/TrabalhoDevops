@@ -1,5 +1,0 @@
-var DISQUSWIDGETS;
-
-if (typeof DISQUSWIDGETS != 'undefined') {
-    DISQUSWIDGETS.displayCount({"text":{"and":"and","comments":{"zero":"0 Comments","multiple":"{num} Comments","one":"1 Comment"}},"counts":[{"id":"1 http:\/\/www.hauntedchocolatier.net\/?p=1","comments":419},{"id":"186 https:\/\/www.hauntedchocolatier.net\/?p=186","comments":57},{"id":"235 https:\/\/www.hauntedchocolatier.net\/?p=235","comments":197},{"id":"217 https:\/\/www.hauntedchocolatier.net\/?p=217","comments":70},{"id":"261 https:\/\/www.hauntedchocolatier.net\/?p=261","comments":3}]});
-}
