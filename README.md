@@ -26,7 +26,9 @@ Acesse a página através do link:
 Estrutura do Projeto
 
 TrabalhoDevops/
+├── historia.html
 ├── index.html
+├── misterios.html
 ├── css/
 │ └── style.css
 ├── images/
